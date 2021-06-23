@@ -1,0 +1,63 @@
+:root {
+  --BG-Color: #020736;
+  --Topbar-Color: #1D236A;
+  --TEST-COLOR: #FFFFFF;
+  --Button-Color: #46C6DC;
+}
+
+
+body {
+  background-color: var(--BG-Color);
+}
+.topbar-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 17%;
+  background-color: var(--Topbar-Color);
+  opacity: 0.7;
+}
+.topbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 45px;
+}
+.topbar-author {
+  position: absolute;
+  bottom: -30px;
+  left: -70px;
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.allGenBtns {
+  background-color: var(--BG-Color);
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  width: 92%;
+  height: 72%;
+  opacity: 0.7;
+}
+.Discord-Gen-Btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+  background-color: var(--Button-Color);
+  border-style: solid;
+  border-radius: 15px;
+}
+.Discord-Btn-Text {
+  width: 100%;
+  text-align: center;
+}
+

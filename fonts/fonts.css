@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Rattoney";
+  src: url("./Rattoney.ttf");
+}
+
+@font-face {
+  font-family: "Rattih_Putri";
+  src: url("./Rattih_Putri.ttf");
+}
+
+@font-face {
+  font-family: "Typegrapher_One";
+  src: url("./TypegrapherOne.ttf");
+}
+
+
+.Rattoney {
+  font-family: Rattoney;
+}
+
+.Rattih_Putri {
+  font-family: Rattih_Putri;
+}
+
+.Typegrapher_One {
+  font-family: Typegrapher_One;
+}
+
